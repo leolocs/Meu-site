@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Validação de Formulário</title>
+	<link rel="stylesheet" href="../css/css.css" />
+</head>
+<body>
+    <header class="head">
+        <div class="header">
+            <h1>LOCS Corp. &trade;</h1>
+        </div>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="form.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <form class="contato_form" action="" method="post" name="contato_form">
+        <section class="contato">
+            <div>
+                <ul type="none">
+                    <li>
+                        <h2>Contato</h2>
+                    </li>
+                    <table>
+                        <ul>
+                            <tr>
+                                <td><label for="nome">Nome Completo*:</label></td>
+                                <td><input type="text" name="nome"></td>
+                            </tr>
+                        </ul>
+
+                        <ul>
+                            <tr>
+                                <td><label for="telefone">Telefone*:</label></td>
+                                <td><input type="text" name="telefone" /></td>
+                                <td><span class="form_hint">Exemplo: (DDD)xxxxx-xxxx</span></td>
+                            </tr>
+                        </ul>
+                        <ul>
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="text" name="email" /></td>
+                                <td><span class="form_hint">Exemplo:"exemplo@gmail.com.br"</span></td>
+                            </tr>
+                        </ul>
+                        <ul>
+                            <tr>
+                                <div class="msg">
+                                    <td><label for="msg">Mensagem:</label></td>
+                                    <td><textarea name="msg" cols="40" rows="6"></textarea></td>
+                                </div>
+                            </tr>
+                        </ul>
+                    </table>
+                    <li>
+                        <span class="span">* Campos obrigatórios</span>
+                        <button class="enviar" type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </div>
+        </section>      
+            <div class="rodape">
+                <h2>Feito por: Leonardo Oliveira Carvalho de Souza</h2>
+                <h3>Matricula: 2019-04-01.8955</h3>
+            </div>
+    </form>
+</body>
+</html>
